@@ -33,24 +33,29 @@ input:active {
 footer {
     background-color: #0B0D17;
     padding: 30px;
+    line-height: 0.3;
 }
 
 footer h2 {
     color: #FF5959;
     text-align: center;
+    font-family: 'Pacifico', cursive;
+    font-size: 40px;
+    padding-bottom: 20px;
 }
 
 footer h5 {
     color: white;
     text-align: center;
     font-weight: 300;
+    font-size: 18px;
 }
 
 .header {
     background-image: url("images/donation9.jpg");
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment: relative;
     padding: 20% 0%;
     box-shadow: inset 0 0 0 2000px rgba(31, 30, 31, 0.428);
 }
@@ -108,6 +113,7 @@ footer h5 {
     display: flex;
     justify-content: center;
     align-items: center;
+
 }
 
 
@@ -159,9 +165,7 @@ footer h5 {
 
 .description-with-image {
     padding: 30px;
-    
-    
-    
+
 }
 
 .description-with-image h3 {
@@ -169,18 +173,53 @@ footer h5 {
     padding-bottom: 10px;
     padding-right: 50%;
 
-    
+
 }
 
 .description-with-image p {
     color: #707070;
-    padding-bottom: 20px;
+    padding-bottom: 30px;
 }
 
-.image-for-description img{
+.image-for-description img {
     width: 350px;
     height: 380px;
     padding: 30px;
     object-fit: cover;
     border-radius: 9%;
+}
+
+.group-input {
+    display: inline-block;
+    vertical-align: middle;
+    position: static;
+    padding: 20px 0px;
+}
+
+.group-input input {
+    background-color: #D9D9D9;
+    text-align: left;
+    padding-left: 20px;
+    height: 42px;
+    width: 180px;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border: none;
+    margin: none;
+    margin-top: 45px;
+}
+
+.group-input button {
+    text-decoration: none;
+    text-align: center;
+    color: white;
+    background-color: #FF5959;
+    padding: 10px 25px;
+    height: 42px;
+    width: 140px;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+    margin: none;
+    border-color:transparent ;
+
 }
