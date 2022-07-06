@@ -30,6 +30,22 @@ input:active {
     border: none;
 }
 
+footer {
+    background-color: #0B0D17;
+    padding: 30px;
+}
+
+footer h2 {
+    color: #FF5959;
+    text-align: center;
+}
+
+footer h5 {
+    color: white;
+    text-align: center;
+    font-weight: 300;
+}
+
 .header {
     background-image: url("images/donation9.jpg");
     background-repeat: no-repeat;
@@ -118,4 +134,25 @@ input:active {
     border: 3px solid #FF5959;
     background-color: #FFEEEE;
     color: #FF5959;
+}
+
+.box-one {
+    background-color: #4F9DA6;
+    margin: 20px;
+    padding: 30px;
+    width: 500px;
+}
+
+.box-two {
+    background-color: #FF5959;
+    margin: 20px;
+    padding: 30px;
+    width: 500px;
+}
+
+.box-three {
+    background-color: #FFF4D6;
+    margin: 20px;
+    padding: 30px;
+    width: 500px;
 }
