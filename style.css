@@ -138,21 +138,49 @@ footer h5 {
 
 .box-one {
     background-color: #4F9DA6;
-    margin: 20px;
+    margin: 30px;
     padding: 30px;
     width: 500px;
 }
 
 .box-two {
     background-color: #FF5959;
-    margin: 20px;
+    margin: 30px;
     padding: 30px;
     width: 500px;
 }
 
 .box-three {
     background-color: #FFF4D6;
-    margin: 20px;
+    margin: 30px;
     padding: 30px;
     width: 500px;
+}
+
+.description-with-image {
+    padding: 30px;
+    
+    
+    
+}
+
+.description-with-image h3 {
+    text-align: left;
+    padding-bottom: 10px;
+    padding-right: 50%;
+
+    
+}
+
+.description-with-image p {
+    color: #707070;
+    padding-bottom: 20px;
+}
+
+.image-for-description img{
+    width: 350px;
+    height: 380px;
+    padding: 30px;
+    object-fit: cover;
+    border-radius: 9%;
 }
